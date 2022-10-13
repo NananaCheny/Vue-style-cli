@@ -1,16 +1,14 @@
 <template>
 	<div>
-		<Student/>
-		<hr>
-		<School/>
+		<Student name="李四" sex="女" :age="18" />
 	</div>
 </template>
 <script>
 	// 引入组件id
 	import Student from './components/Student'
-	import School from './components/School'
+	
 	export default{
 		name:'App',
-		components:{Student,School},
+		components:{Student},
 	}
 </script>

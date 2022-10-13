@@ -1,16 +1,17 @@
 <template>
 	<div>
-		<Student/>
-		<hr>
 		<School/>
+		<hr>
+		<Student/>
 	</div>
 </template>
 <script>
 	// 引入组件id
-	import Student from './components/Student'
 	import School from './components/School'
+	import Student from './components/Student'
+	
 	export default{
 		name:'App',
-		components:{Student,School},
+		components:{School,Student},
 	}
 </script>
